@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        tools:ignore="MissingClass" />
+
+
+    <Button
+        android:id="@+id/button_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:text="QR-Code to AR">
+    </Button>
+
+    <Button
+        android:id="@+id/button_ar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="445dp"
+        android:text="Open Box with AR">
+    </Button>
+
+
+</RelativeLayout>
